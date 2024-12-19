@@ -1,0 +1,43 @@
+.scrolling-title {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .scrolling-title span {
+    display: inline-block;
+    position: absolute;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .professor-card {
+    text-align: center;
+  }
+  
+  .professor-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .professor-card h4 {
+    margin-top: 10px;
+  }
+  
+  .professor-card p {
+    font-style: italic;
+  }
+  
